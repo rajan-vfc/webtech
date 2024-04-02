@@ -1,0 +1,73 @@
+<!DOCTYPE html> 
+<html> 
+ <head> 
+<title>Inline CSS</title> 
+ </head> 
+ <body> 
+<p style = "color:#009900; font-size:50px;
+ font-style:italic; text-align:center;"> 
+Welcome to Cognitive System 
+ </p> 
+ </body> 
+</html>
+
+
+<!DOCTYPE html> 
+<html> 
+<head> 
+<title>Internal CSS</title> 
+<style> 
+.main { 
+text-align:center; 
+} 
+.GFG { 
+color:#009900; 
+font-size:50px;
+fontweight:bold; 
+} 
+.geeks { 
+font-style:bold; 
+font-size:20px; 
+} 
+</style> 
+</head> 
+<body> 
+27
+<div class = "main"> 
+<div class ="GFG">Cognitive System</div> 
+<div class ="geeks"> 
+A computer science department 
+</div> 
+</div> 
+</body> 
+</html>
+
+
+
+
+<!DOCTYPE html> 
+<html> 
+<head> 
+<link rel="stylesheet" href="exter.css"/> 
+</head>
+<body> 
+<div class = "main"> 
+<div class ="GFG">Cognitive System</div> 
+<div id ="geeks"> 
+A computer science Department 
+</div> 
+</div> 
+</body> 
+</html>
+
+
+EXTER.CSS
+body { 
+background-color:powderblue; 
+} .main { text-align:center; 
+30
+} .GFG { color:#009900; 
+font-size:50px; fontweight:bold; 
+} #geeks { font-style:bold; 
+font-size:20px; 
+}

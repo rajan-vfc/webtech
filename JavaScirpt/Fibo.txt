@@ -1,0 +1,27 @@
+<!DOCTYPE html> 
+<html> 
+<body> 
+<script type = "text/javascript"> function 
+fibonacci(){ 
+ num=Number(document.cal.first.value); 
+ var num1=0; 
+ var num2=1; 
+ var sum; 
+ var i=2; 
+while (i<num) 
+{ 
+sum=num1+num2; 
+num1=num2; num2=sum; 
+i+=1; 
+ document.write(sum+"<br>"); 
+} 
+} 
+</script> 
+ <form name="cal"> 
+ <!-- Here user will enter 1st number. --> 
+36
+ Number 1: <input type="text" name="first"> 
+ <input type="button" value="fibo" onclick="javascript:fibonacci();"> <br> 
+ <br> 
+</body> 
+</html>

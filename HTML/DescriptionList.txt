@@ -1,0 +1,16 @@
+<!DOCTYPE html> 
+<html> 
+ <head> 
+ <title>HTML Description List</title> 
+ </head> 
+ <body> 
+ <dl> 
+ <dt><b>Apple</b></dt> 
+ <dd>A red colored fruit</dd> 
+ <dt><b>Honda</b></dt> 
+ <dd>A brand of a car</dd> 
+ <dt><b>Spinach</b></dt> 
+ <dd>A green leafy vegetable</dd> 
+ </dl> 
+ </body> 
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+<style> 
+sub { 
+vertical-align: sub; 
+font-size: medium; 
+} 
+</style> 
+</head> 
+<body> 
+<p>Examples to demonstrate subscript text</p> 
+<p> Chemical formula of water is H<sub>2</sub>O</p> 
+<p>T<sub>i+2</sub>= T<sub>i</sub> + T<sub>i+1</sub></p> <p>Change the default CSS settings to 
+see the effect.</p> 
+</body> 
+</html> 
+
+
+SUPERSCRIPT
+<!DOCTYPE html> 
+<html> 
+<head> 
+<style> 
+sup { 
+vertical-align: super; 
+13
+font-size: medium; 
+} 
+</style> 
+</head> 
+<body> 
+<p>Examples to demonstrate superscript text</p> 
+<p>2 <sup>4</sup>=16</p> 
+<p>X <sup>4</sup>+ Y<sup>6</sup></p> 
+<p>9<sup>th</sup> of september</p> 
+<p>Change the default CSS settings to see the effect.</p> 
+</body> 
+</html>
